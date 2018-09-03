@@ -6,8 +6,8 @@ German-Credit-Classification-Python
 ==================================================================================
 <h4> Overview </h4>
 
-The dataset given is downloaded from Kaggle. The objective of the project is to classify loan applicants into risk and<br>
-non-risk applicant based on their profile
+<p>The dataset given is downloaded from Kaggle. The objective of the project is to classify loan applicants into risk and<br>
+non-risk applicant based on their profile</p>
 
 ==================================================================================
 
@@ -24,22 +24,22 @@ Number Of Observations: 1000
 <pre class="tab">Credit amount		- Credit amount in account at present</pre><br>
 <pre class="tab">Duration		- Time in months</pre><br>
 <pre class="tab">Purpose			- car, furniture/equipment, radio/TV, domestic appliances, repairs, education, business, 
-vacation/others</pre> <br>
+                                                  vacation/others</pre> <br>
 <pre class="tab">Risk			- Risk is bad or good</pre><br>
 
 ==================================================================================
 
 <h4>Processing</h4>
 
-There were some missing values. These missing values were converted to as new categories. The variables age, duaration<br>
-and credit amounts were binned based on the log likelihood. The data was found to be unbalanced hence SMOTE was used for<br>
-balancing the data.The Random Forest Classifier was used for processing the dataframe.<br>
+<p>There were some missing values. These missing values were converted to as new categories. The variables age, duaration and<br>
+credit amounts were binned based on the log likelihood. The data was found to be unbalanced hence SMOTE was used for<br>
+balancing the data.The Random Forest Classifier was used for processing the dataframe.<br></p>
 
 ==================================================================================
 
 <h4>Result</h4>
 
-The training accuracy was obtained at 79.85% and Testing accuracy at 80%. The F1 score = 0.8014 and the AUC score was<br>
-0.799 to validate the same. 
+<p>The training accuracy was obtained at 79.85% and Testing accuracy at 80%. The F1 score = 0.8014 and the AUC score was<br>
+0.799 to validate the same. </p>
 
 ==================================================================================
