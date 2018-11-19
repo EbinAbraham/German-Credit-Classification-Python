@@ -8,8 +8,6 @@ German-Credit-Classification-Python
 
 <p ALIGN=JUSTIFY>The dataset given is downloaded from Kaggle. The objective of the project is to classify loan applicants into risk and
 non-risk applicant based on their profile</p>
-
-
 ==================================================================================
 
 <h4> Dataset</h4>
@@ -43,16 +41,22 @@ Number Of Observations: 1000
 
 <h4>Result</h4>
 
-<p ALIGN=JUSTIFY>Out of the three model Support Vector Classifier gave the best result. The result of the model is as follows:</p>
+<p ALIGN=JUSTIFY>Out of the three model Random Forest Classifier gave the best result. The result of the model is as follows:</p>
+
+```
+Confusion Matrix:
+ [[114  25]
+ [ 26 115]]
+```
 
 | Metric            | Value   |
 | ----------------- | ------- |
-| Training Accuracy | 76.96%  |
-| Testing Accuracy  | 80.71%  |
-| Sensitivity       | 0.79720 |
-| Specificity       | 0.81751 |
-| F1 Score          | 0.80575 |
-| AUC Score         | 0.80723 |
+| Training Accuracy | 78.12%  |
+| Testing Accuracy  | 81.78%  |
+| Sensitivity       | 0.81428 |
+| Specificity       | 0.82142 |
+| F1 Score          | 0.81850 |
+| AUC Score         | 0.81787 |
 
 
 
